@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorts", "Sorts", "{8A596A79-404C-4222-ADE5-998C44824E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{5E7666F9-BFF5-4605-8FF9-1BA600712E4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSort", "SelectionSort\SelectionSort.csproj", "{5E7666F9-BFF5-4605-8FF9-1BA600712E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{02D6DBBB-6817-447F-990F-5650CAE7762B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{5E7666F9-BFF5-4605-8FF9-1BA600712E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E7666F9-BFF5-4605-8FF9-1BA600712E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E7666F9-BFF5-4605-8FF9-1BA600712E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D6DBBB-6817-447F-990F-5650CAE7762B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D6DBBB-6817-447F-990F-5650CAE7762B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D6DBBB-6817-447F-990F-5650CAE7762B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D6DBBB-6817-447F-990F-5650CAE7762B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5E7666F9-BFF5-4605-8FF9-1BA600712E4E} = {8A596A79-404C-4222-ADE5-998C44824E2B}
+		{02D6DBBB-6817-447F-990F-5650CAE7762B} = {8A596A79-404C-4222-ADE5-998C44824E2B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {862D6240-5756-47C0-BE02-3610477E98E3}
